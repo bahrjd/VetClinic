@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE [dbo].[GetClinic] 
+AS
+BEGIN
+	SET NOCOUNT ON;
+    SELECT * FROM dbo.Clinic
+END
